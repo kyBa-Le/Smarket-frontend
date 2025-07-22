@@ -1,14 +1,16 @@
 function Login() {
     return (
-        <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+        <div className="bg-white rounded-lg shadow-sm overflow-hidden pt-[50px] pb-[50px]">
             <div className="grid lg:grid-cols-2 min-h-[500px]">
                 {/* Left Side - Illustration */}
-                <div className="bg-gray-100 flex items-center justify-center p-8">
-                    <div className="w-full max-w-md h-80 bg-gray-300 rounded-lg flex items-center justify-center">
-                        <span className="text-gray-500 text-sm">
-                            Login Illustration Placeholder
-                        </span>
-                    </div>
+                <div 
+                    style={
+                        { 
+                            backgroundImage: "url('https://i.pinimg.com/736x/8b/cb/72/8bcb72adb10dca204733f8d7c7e7adff.jpg')", 
+                            backgroundRepeat: "no-repeat", 
+                            backgroundPosition: "center" 
+                        }} 
+                    className="flex items-center justify-center p-8 bg-size-cover object-cover">
                 </div>
                 {/* Right Side - Login Form */}
                 <div className="p-8 lg:p-12 flex flex-col justify-center">
